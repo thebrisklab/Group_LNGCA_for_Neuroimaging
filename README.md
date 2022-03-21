@@ -1,6 +1,6 @@
 # Group Linear non-Gaussian Component Analysis for Neuroimaging
 
-This repository provides codes to implement the proposed algorithms (group LNGCA and non-Gaussian subspace dimension test/estimation) and reproduce the experiment results in paper ["Group Linear non-Gaussian Component Analysis with Applications to Neuroimaging"](https://arxiv.org/abs/2101.04809). 
+This repository provides codes to implement the proposed algorithms (group LNGCA and non-Gaussian subspace dimension test/estimation) and reproduce the experiment results in the open-access paper published in Computational Statistics and Data Analysis, ["Group Linear non-Gaussian Component Analysis with Applications to Neuroimaging"](https://www.sciencedirect.com/science/article/pii/S0167947322000342/pdfft?md5=729eb4b951b220f68d883acb7c8c8c37&pid=1-s2.0-S0167947322000342-main.pdf). 
 
 ## Group LNGCA 
 The group LNGCA algorithm, located in file fun_call_group_function.R, concists of three steps (1) Subject level LNGCA (2) Group level PCA/SVD (3) Group level ICA/LNGCA. The first step and third step are achieved using codes supporting the single subject LNGCA ["Linear non-gaussian component analysis via maximum likelihood"](https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1407772), which are included in file fun_LNGCA.R.
